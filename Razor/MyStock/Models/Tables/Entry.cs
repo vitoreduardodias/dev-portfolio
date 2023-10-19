@@ -9,8 +9,8 @@ namespace MyStock.Models.Tables
         [DisplayName("Id")]
         public int Id { get; set; }
 
-        //[Required(ErrorMessage ="Please select a Product")]
-        //public List<Product> Products { get; set;} = new();
+        [Required(ErrorMessage ="Please select a Product")]
+        public List<Product> Products { get; set;} = new();
 
         [Required(ErrorMessage = "Please provide a Quantity")]
         [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
@@ -27,12 +27,7 @@ namespace MyStock.Models.Tables
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         public DateTime EntryDate { get; set; }
 
-
-        [Required(ErrorMessage = "Please Select a Supplier")]
-        [DisplayName("Supplier")]
-        public int SupplierId { get; set; }
-
-        public Supplier? Supplier { get; set; }
+        public List<Supplier> Suppliers { get; set; } = new();
 
     }
 }
