@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace MyStock.Models.Tables
 {
@@ -10,16 +11,15 @@ namespace MyStock.Models.Tables
         public int Id { get; set; }
 
         [DisplayName("Title")]
-        [Required(ErrorMessage ="Please provide a Title")]
+        [Required(ErrorMessage = "Please provide a Title")]
         public string Title { get; set; } = string.Empty;
 
         [DisplayName("Description")]
         [Required(ErrorMessage = "Please provide a Description")]
         public string Description { get; set; } = string.Empty;
 
-        [DisplayName("Description")]
+        [DisplayName("Product")]
         [Required(ErrorMessage = "Please provide a Product")]
-        public List<Product> Product { get; set; } = new();
-
+        public List<Product> Products { get; set; } = new();
     }
 }

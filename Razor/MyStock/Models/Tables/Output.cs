@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyStock.Models.Tables
 {
-    public class Entry
+    public class Output
     {
         [Key]
         [DisplayName("Id")]
@@ -20,17 +20,12 @@ namespace MyStock.Models.Tables
         [DisplayName("Quantity")]
         public int Quantity { get; set; }
 
-        [Required(ErrorMessage = "Please provide a Price in $")]
-        [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
-        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
-        [DisplayName("Price (Unity)")]
-        public decimal Price { get; set; }
-
-        [DisplayName("Entry Date")]
+        [DisplayName("Out Date")]
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
-        public DateTime EntryDate { get; set; }
+        public DateTime OutDate { get; set; }
 
-        [DisplayName("Suppliers")]
-        public List<Supplier> Suppliers { get; set; } = new List<Supplier>();
+        [Required(ErrorMessage = "Please provide a Recipient")]
+        [DisplayName("Recipient")]
+        public string Recipient { get; set; } = string.Empty;
     }
 }
