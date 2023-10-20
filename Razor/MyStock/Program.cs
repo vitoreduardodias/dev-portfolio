@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using MyStock.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>
+    (options => options.UseSqlServer
+    ("Data Source=DESKTOP-FJ9C6L1\\MSSQLSERVER01;Initial Catalog=MYSTOCK_SQL;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
+));
 
 var app = builder.Build();
 

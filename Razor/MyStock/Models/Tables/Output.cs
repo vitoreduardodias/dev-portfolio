@@ -11,9 +11,13 @@ namespace MyStock.Models.Tables
         [DisplayName("Id")]
         public int Id { get; set; }
 
-        [DisplayName("Products")]
-        [Required(ErrorMessage = "Please select a Product")]
-        public List<Product> Products { get; set; } = new List<Product>();
+        //[DisplayName("Products")]
+        //[Required(ErrorMessage = "Please select a Product")]
+        //public List<Product> Products { get; set; } = new List<Product>(); // Foreign key
+
+        [DisplayName("Product")]
+        public int ProductOutputId { get; set; }
+        public Product? OutputProduct { get; set; }
 
         [Required(ErrorMessage = "Please provide a Quantity")]
         [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]

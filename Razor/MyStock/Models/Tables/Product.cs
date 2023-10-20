@@ -22,7 +22,7 @@ namespace MyStock.Models.Tables
         [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
         [Required(ErrorMessage = "Please provide a Price")]
         [DisplayName("Price")]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
 
         [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
         [Required(ErrorMessage = "Please provide a Quantity")]
