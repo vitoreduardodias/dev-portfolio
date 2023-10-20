@@ -54,13 +54,10 @@ namespace MyStock.Migrations
                     b.Property<DateTime>("EntryDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("EntryProductId")
-                        .HasColumnType("int");
-
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<int>("ProductEntryId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -71,7 +68,7 @@ namespace MyStock.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EntryProductId");
+                    b.HasIndex("ProductId");
 
                     b.HasIndex("SupplierId");
 
@@ -89,10 +86,7 @@ namespace MyStock.Migrations
                     b.Property<DateTime>("OutDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("OutputProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductOutputId")
+                    b.Property<int>("ProductOutId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -104,7 +98,7 @@ namespace MyStock.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OutputProductId");
+                    b.HasIndex("ProductOutId");
 
                     b.ToTable("Outputs");
                 });
@@ -168,9 +162,11 @@ namespace MyStock.Migrations
 
             modelBuilder.Entity("MyStock.Models.Tables.Entry", b =>
                 {
-                    b.HasOne("MyStock.Models.Tables.Product", "EntryProduct")
+                    b.HasOne("MyStock.Models.Tables.Product", "Product")
                         .WithMany("Entries")
-                        .HasForeignKey("EntryProductId");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("MyStock.Models.Tables.Supplier", "Supplier")
                         .WithMany("Entries")
@@ -178,18 +174,20 @@ namespace MyStock.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("EntryProduct");
+                    b.Navigation("Product");
 
                     b.Navigation("Supplier");
                 });
 
             modelBuilder.Entity("MyStock.Models.Tables.Output", b =>
                 {
-                    b.HasOne("MyStock.Models.Tables.Product", "OutputProduct")
+                    b.HasOne("MyStock.Models.Tables.Product", "ProductOut")
                         .WithMany("Outputs")
-                        .HasForeignKey("OutputProductId");
+                        .HasForeignKey("ProductOutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("OutputProduct");
+                    b.Navigation("ProductOut");
                 });
 
             modelBuilder.Entity("MyStock.Models.Tables.Product", b =>

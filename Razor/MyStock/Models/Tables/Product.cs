@@ -34,9 +34,9 @@ namespace MyStock.Models.Tables
         public Category? Category { get; set; }
 
         [DisplayName("Entries")]
-        public List<Entry> Entries { get; set; } = new List<Entry>();
+        public List<Entry> Entries { get; set; } = new();
 
         [DisplayName("Outputs")]
-        public List<Output> Outputs { get; set; } = new List<Output>();
+        public List<Output> Outputs { get; set; } = new();
     }
 }
