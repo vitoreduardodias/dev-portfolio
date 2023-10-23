@@ -59,7 +59,7 @@ namespace MyStock.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ProductId,Quantity,Price,EntryDate,SupplierId")] Entry entry)
+        public async Task<IActionResult> Create([Bind("Id,ProductId,Quantity,EntryDate,SupplierId")] Entry entry)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +95,7 @@ namespace MyStock.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductId,Quantity,Price,EntryDate,SupplierId")] Entry entry)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductId,Quantity,EntryDate,SupplierId")] Entry entry)
         {
             if (id != entry.Id)
             {

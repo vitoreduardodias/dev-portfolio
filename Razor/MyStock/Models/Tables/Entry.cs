@@ -24,11 +24,11 @@ namespace MyStock.Models.Tables
         [DisplayName("Quantity")]
         public int Quantity { get; set; }
 
-        [Required(ErrorMessage = "Please provide a Price in $")]
-        [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
-        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
-        [DisplayName("Price (Unity)")]
-        public double Price { get; set; }
+        //[Required(ErrorMessage = "Please provide a Price in $")]
+        //[Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
+        //[DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
+        //[DisplayName("Price (Unity)")]
+        //public double Price { get; set; }
 
         [DisplayName("Entry Date")]
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
