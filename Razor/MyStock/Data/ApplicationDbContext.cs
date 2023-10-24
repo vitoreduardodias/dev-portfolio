@@ -21,6 +21,10 @@ namespace MyStock.Data
                 .ToTable(tb => tb.HasTrigger("trgAfterInsertEntry"));
             modelBuilder.Entity<Product>()
                 .ToTable(tb => tb.HasTrigger("trgAfterUpdateEntry"));
+            modelBuilder.Entity<Output>()
+                .ToTable(tb => tb.HasTrigger("trgAfterInsertOrUpdateOutput"));
+            modelBuilder.Entity<Product>()
+                .ToTable(tb => tb.HasTrigger("trgAfterUpdateOutput"));
         }
     }
 }
