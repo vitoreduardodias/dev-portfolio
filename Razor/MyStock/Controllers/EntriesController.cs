@@ -49,8 +49,8 @@ namespace MyStock.Controllers
         // GET: Entries/Create
         public IActionResult Create()
         {
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Description");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Address");
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Title");
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name");
             return View();
         }
 
@@ -67,8 +67,8 @@ namespace MyStock.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Description", entry.ProductId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Address", entry.SupplierId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Title", entry.ProductId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", entry.SupplierId);
             return View(entry);
         }
 
@@ -85,8 +85,8 @@ namespace MyStock.Controllers
             {
                 return NotFound();
             }
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Description", entry.ProductId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Address", entry.SupplierId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Title", entry.ProductId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", entry.SupplierId);
             return View(entry);
         }
 
@@ -122,8 +122,8 @@ namespace MyStock.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Description", entry.ProductId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Address", entry.SupplierId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Title", entry.ProductId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", entry.SupplierId);
             return View(entry);
         }
 
