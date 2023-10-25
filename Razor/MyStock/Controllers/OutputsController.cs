@@ -48,7 +48,7 @@ namespace MyStock.Controllers
         // GET: Outputs/Create
         public IActionResult Create()
         {
-            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Description");
+            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Title");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace MyStock.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Description", output.ProductOutId);
+            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Title", output.ProductOutId);
             return View(output);
         }
 
@@ -82,7 +82,7 @@ namespace MyStock.Controllers
             {
                 return NotFound();
             }
-            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Description", output.ProductOutId);
+            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Title", output.ProductOutId);
             return View(output);
         }
 
@@ -118,7 +118,7 @@ namespace MyStock.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Description", output.ProductOutId);
+            ViewData["ProductOutId"] = new SelectList(_context.Products, "Id", "Title", output.ProductOutId);
             return View(output);
         }
 

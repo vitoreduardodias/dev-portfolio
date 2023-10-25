@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BW6xdQ1ZtrOOjI3R+UQPAIGCOx1V9sPPMixNSAXg5YE=",
+  "Hash": "wFIyq7CjGAuWgVBH3T2n6VU3M+M7QL2wjHEeYe3qBzQ=",
   "Source": "MyStock",
   "BasePath": "_content/MyStock",
   "Mode": "Default",
@@ -374,6 +374,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-Litera.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css"
+    },
+    {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MyStock",
       "SourceType": "Discovered",
@@ -644,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-zephyr.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css"
     },
     {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",

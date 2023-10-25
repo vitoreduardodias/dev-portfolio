@@ -7,13 +7,10 @@ namespace MyStock.Models.Tables
 {
     public class Output
     {
+
         [Key]
         [DisplayName("Id")]
         public int Id { get; set; }
-
-        //[DisplayName("Products")]
-        //[Required(ErrorMessage = "Please select a Product")]
-        //public List<Product> Products { get; set; } = new List<Product>(); // Foreign key
 
         [DisplayName("Product")]
         public int ProductOutId { get; set; }

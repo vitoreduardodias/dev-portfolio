@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css"
+    },
+    {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -115,6 +119,10 @@
     {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css"
     },
     {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
