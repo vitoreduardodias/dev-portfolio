@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using MyStock.Data;
 using MyStock.Models.Tables;
@@ -24,6 +25,12 @@ namespace MyStock.Controllers
         {
             var applicationDbContext = _context.Outputs.Include(o => o.ProductOut);
             return View(await applicationDbContext.ToListAsync());
+        }
+
+        public IActionResult CustomError()
+        {
+            // Página personalizada de erro para o cliente
+            return View();
         }
 
         // GET: Outputs/Details/5
@@ -155,14 +162,14 @@ namespace MyStock.Controllers
             {
                 _context.Outputs.Remove(output);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool OutputExists(int id)
         {
-          return (_context.Outputs?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Outputs?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

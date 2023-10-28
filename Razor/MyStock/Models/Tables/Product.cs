@@ -33,6 +33,8 @@ namespace MyStock.Models.Tables
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
 
+        //public double TotalValue { get; set; }
+
         [DisplayName("Entries")]
         public List<Entry> Entries { get; set; } = new();
 
