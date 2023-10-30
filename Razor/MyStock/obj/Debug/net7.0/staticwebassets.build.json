@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wFIyq7CjGAuWgVBH3T2n6VU3M+M7QL2wjHEeYe3qBzQ=",
+  "Hash": "9hANEIJKE3VatcYgyQs8YGXcLvtZgYT92AIxp5LEV+k=",
   "Source": "MyStock",
   "BasePath": "_content/MyStock",
   "Mode": "Default",
@@ -391,6 +391,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css"
     },
     {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-mint.css",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-mint.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-mint.css"
+    },
+    {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MyStock",
       "SourceType": "Discovered",
@@ -527,6 +544,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-sandstone.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css"
+    },
+    {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MyStock",
       "SourceType": "Discovered",
@@ -661,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zenphyr.css",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-zenphyr.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zenphyr.css"
     },
     {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css",

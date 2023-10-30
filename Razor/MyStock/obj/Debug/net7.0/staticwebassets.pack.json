@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-mint.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-mint.css"
+    },
+    {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
@@ -89,6 +93,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css"
+    },
+    {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
@@ -119,6 +127,10 @@
     {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zenphyr.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-zenphyr.css"
     },
     {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css",
