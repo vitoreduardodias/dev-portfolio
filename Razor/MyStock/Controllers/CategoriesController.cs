@@ -36,6 +36,7 @@ namespace MyStock.Controllers
             }
 
             var category = await _context.Categories
+                .Include(c => c.Products)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (category == null)
             {

@@ -26,7 +26,7 @@ namespace MyStock.Models.Tables
         public double Price { get; set; }
 
         [DisplayName("Quantity")]
-        [Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
+        //[Range(1, int.MaxValue, ErrorMessage = "The value should be greater than zero.")]
         public int Quantity { get; set; }
 
         [DisplayName("Category")]
