@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-Litera.css"
     },
     {
+      "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cosmo.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-cosmo.css"
+    },
+    {
       "Id": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
