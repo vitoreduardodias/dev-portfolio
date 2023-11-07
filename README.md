@@ -22,9 +22,9 @@ User Flow Optimization: The user interface has been designed with a focus on sim
 
 Technologies Used:
 
-Frontend: Razor Pages, HTML, CSS.
-Backend: C#, .NET.
-Database: Entity Framework, SQL Sever
+# Frontend: Razor Pages, HTML, CSS.
+# Backend: C#, .NET.
+# Database: Entity Framework, SQL Sever
 Future Enhancements: Front End improvement.
 
 This project is not just a static representation but a living, evolving system, ensuring the continual improvement and adaptability of the inventory management system.
