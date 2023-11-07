@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A9R5B96peM/SLE2KsJWJ22n28Nf5VPSisvtSpK8TNlI=",
+  "Hash": "1UG0HkSmf8aFk6ybKVXBGalcX5Kf7EW62W2I5FrQA3Y=",
   "Source": "MyStock",
   "BasePath": "_content/MyStock",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\img\\logo.png",
+      "SourceId": "MyStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\",
+      "BasePath": "_content/MyStock",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\dev\\dev-portfolio\\Razor\\MyStock\\wwwroot\\js\\site.js",
