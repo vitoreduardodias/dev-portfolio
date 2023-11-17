@@ -1,8 +1,9 @@
 <template>
-
-  <!-- Section 1 -->
   <div class="container">
-    <div class="">
+
+
+    <!-- Section 1 -->
+    <div class="d-flex justify-content-center flex-column gap-3" style="margin: 10rem 0;">
       <!-- Text Area -->
       <div class="text-center">
         <!-- Title -->
@@ -15,20 +16,19 @@
         <p class="lh-sm fs-5">C#, .NET Core, SQL are Vitor' favorite tools, an 20-year-old programmer, 
           <br> who likes challenges and innovation. He creates smart, elegant solutions 
           <br> to a variety of problems.</p>
-        </div>
-
-        <!-- Buttons -->
-        <div class="">
+        </div>   
+    </div> 
+    <!-- Buttons -->
+    <div class="d-flex justify-content-center gap-5">
           <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
           <button type="button" class="btn btn-dark"><i class="bi bi-linkedin"></i> LinkedIn</button>
         </div>
 
-    </div> 
   </div>
 
 <!-- Section 2 -->
   
-  <div class="row row-cols-2">
+  <div class="row row-cols-2" style="margin-bottom: 8.75rem;">
   <div>
     <!-- Title -->
       <div>
@@ -42,17 +42,38 @@
   </div>
 
   <!-- Skills -->
-  <div>
-    <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-linkedin"></i> LinkedIn</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-linkedin"></i> LinkedIn</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-linkedin"></i> LinkedIn</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
-    <button type="button" class="btn btn-dark"><i class="bi bi-linkedin"></i> LinkedIn</button>
+  <div class="grid gap-3">
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-github"></i> Github</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-linkedin"></i> LinkedIn</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-github"></i> Github</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-linkedin"></i> LinkedIn</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-github"></i> Github</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-linkedin"></i> LinkedIn</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-github"></i> Github</button>
+    <button type="button" class="btn btn-dark" style="margin: 0.5rem 0.3rem;"><i class="bi bi-linkedin"></i> LinkedIn</button>
   </div>
 </div>
+<div class="d-flex justify-content-center" style="margin-bottom: 4rem;">
+  <button type="button" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
+</div>
+
+<!-- Section 3 -->
+
+<div>
+    <div>
+      <!-- Title -->
+      <div class="mb-5">
+        <h1 class="fw-bold fs-1 text-center">Porfolio</h1>
+      </div>
+
+      <div>
+        <div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
   </div>
 </template>
   
