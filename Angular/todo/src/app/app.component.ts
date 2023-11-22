@@ -19,7 +19,6 @@ export class AppComponent {
     this.todos.push(new Todo(1, 'Walk with dog', false));
     this.todos.push(new Todo(2 , 'Cut the hair', true));
     this.todos.push(new Todo(3, 'Go to market', false));
-    this.todos.push(new Todo(4, "sdadads", false))
     
   }
 }
