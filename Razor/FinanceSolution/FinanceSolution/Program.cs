@@ -1,7 +1,15 @@
+using FinanceSolution.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<AppDbContext>
+(options => options.UseSqlServer
+("Data Source=DESKTOP-FJ9C6L1\\MSSQLSERVER01;Initial Catalog=FINANCE_DB;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
+));
 
 var app = builder.Build();
 
