@@ -10,4 +10,10 @@ public class AppDbContext : DbContext
     public DbSet<Release> Releases { get; set; } = default!;
     public DbSet<Account> Accounts { get; set; } = default!;
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Release>().ToTable(tb => tb.HasTrigger("CalculateTotalAmount"));
+
+        base.OnModelCreating(modelBuilder);
+    }
 }
