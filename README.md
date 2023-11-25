@@ -31,4 +31,4 @@ This project is not just a static representation but a living, evolving system, 
 
 Thank you for exploring my portfolio project. I am proud to present a comprehensive inventory management solution that not only meets the basic requirements but goes above and beyond in addressing the intricacies of inventory control. Feel free to explore the code and documentation for a deeper understanding of the system's architecture and functionality.
 
-Feel free to tailor the text as needed based on the specifics of your project.
+Feel free to tailor the text as needed based on the specifics of your project...
