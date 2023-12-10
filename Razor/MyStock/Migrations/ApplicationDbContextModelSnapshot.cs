@@ -69,7 +69,10 @@ namespace MyStock.Migrations
 
                     b.HasIndex("SupplierId");
 
-                    b.ToTable("Entries");
+                    b.ToTable("Entries", t =>
+                        {
+                            t.HasTrigger("trgAfterInsertEntry");
+                        });
                 });
 
             modelBuilder.Entity("MyStock.Models.Tables.Output", b =>
@@ -97,7 +100,10 @@ namespace MyStock.Migrations
 
                     b.HasIndex("ProductOutId");
 
-                    b.ToTable("Outputs");
+                    b.ToTable("Outputs", t =>
+                        {
+                            t.HasTrigger("trgAfterInsertOrUpdateOutput");
+                        });
                 });
 
             modelBuilder.Entity("MyStock.Models.Tables.Product", b =>
@@ -129,7 +135,12 @@ namespace MyStock.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", t =>
+                        {
+                            t.HasTrigger("trgAfterUpdateEntry");
+
+                            t.HasTrigger("trgAfterUpdateOutput");
+                        });
                 });
 
             modelBuilder.Entity("MyStock.Models.Tables.Supplier", b =>

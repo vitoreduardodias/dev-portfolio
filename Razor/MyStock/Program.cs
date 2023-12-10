@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>
     (options => options.UseSqlServer
-    ("Data Source=DESKTOP-FJ9C6L1\\MSSQLSERVER01;Initial Catalog=MYSTOCK_SQL;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
+    ("Server=localhost,1433;Database=MyStock;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;"
 ));
 
 var app = builder.Build();
