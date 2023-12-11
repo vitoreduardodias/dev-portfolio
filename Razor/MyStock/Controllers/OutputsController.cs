@@ -27,12 +27,6 @@ namespace MyStock.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        public IActionResult CustomError()
-        {
-            // Página personalizada de erro para o cliente
-            return View();
-        }
-
         // GET: Outputs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
