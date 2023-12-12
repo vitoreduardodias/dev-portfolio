@@ -1,6 +1,8 @@
 # Portfolio Repository
  Vitor Dias Portfolio
 
+:)
+
 ### MyStock
 Portfolio Project: Advanced Inventory Management System (MyStock)
 
