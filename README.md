@@ -1,5 +1,5 @@
 # Portfolio Repository
- Vitor Dias Portfolio
+ Vitor Dias Portfolio.
 
 
 ### MyStock
